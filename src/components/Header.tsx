@@ -61,7 +61,7 @@ const Header = () => {
       <nav
         className={`${
           menuOpen ? "translate-x-0" : "translate-x-full"
-        } md:translate-x-0 fixed md:static top-0 right-0 h-full md:h-auto w-[280px] md:w-auto bg-card md:bg-transparent flex flex-col md:flex-row items-start md:items-center gap-1 p-8 pt-20 md:p-0 shadow-2xl md:shadow-none z-50 transition-transform duration-300 ease-in-out`}
+        } md:translate-x-0 fixed md:static top-0 right-0 h-full md:h-auto w-[280px] md:w-auto bg-card border-l border-gold/15 md:bg-transparent md:border-l-0 flex flex-col md:flex-row items-start md:items-center gap-1 p-8 pt-20 md:p-0 shadow-2xl md:shadow-none z-50 transition-transform duration-300 ease-in-out`}
       >
         {navLinks.map((link) => (
           <a
