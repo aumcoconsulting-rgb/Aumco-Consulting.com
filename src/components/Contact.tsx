@@ -49,7 +49,7 @@ const Contact = () => {
             {[
               { href: "https://wa.me/919003748116", label: "💬 WhatsApp" },
               { href: "https://www.linkedin.com/in/keerthivasan-rk-b0b858230", label: "in LinkedIn" },
-              { href: "https://www.instagram.com/aumcoconsulting", label: "📸 Instagram" },
+              { href: "https://www.instagram.com/aumcoconsulting?igsh=MWd0ZjI5YXoybW5oZw%3D%3D", label: "📸 Instagram" },
             ].map((s) => (
               <a
                 key={s.label}
